@@ -33,3 +33,10 @@ onMounted(async () => {
     <job-feed :job-listings="[]" :position-functions="positionFunctionFilters" />
   </div>
 </template>
+
+<style>
+body {
+  margin: 0;
+  background-color: rgb(250, 253, 253);
+}
+</style>

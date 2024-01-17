@@ -12,5 +12,27 @@ const props = withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <div class="job-feed">INPUT JOB FEED DESIGN HERE</div>
+  <div class="mojob-logo-container">
+    <img src="../assets/mojob_logo_on_white.png" alt="mojob-logo" />
+  </div>
+  <div class="job-feed"></div>
 </template>
+
+<style scoped>
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.mojob-logo-container {
+  background-color: white;
+  width: 100%;
+  left: 0px;
+}
+
+.mojob-logo-container img {
+  margin-left: 8px;
+  display: block;
+  width: 125px;
+}
+</style>
