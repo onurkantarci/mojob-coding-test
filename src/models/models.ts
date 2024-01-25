@@ -193,6 +193,7 @@ export interface PositionFunction {
   name_en?: string
   name_nb?: string
   children?: PositionFunction[]
+  showChildren?: boolean
 }
 
 export interface Job {
